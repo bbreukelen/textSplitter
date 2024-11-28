@@ -1,5 +1,5 @@
 {
-  "name": "textsplitter",
+  "name": "@bbreukelen/textSplitter",
   "version": "1.0.0",
   "main": "index.js",
   "types": "TextSplitter.d.ts",
