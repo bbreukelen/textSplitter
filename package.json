@@ -1,6 +1,6 @@
 {
-  "name": "@bbreukelen/textSplitter",
-  "version": "1.0.0",
+  "name": "@bbreukelen/textsplitter",
+  "version": "1.0.1",
   "main": "index.js",
   "types": "TextSplitter.d.ts",
   "type": "module",
