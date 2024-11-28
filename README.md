@@ -23,3 +23,19 @@ const chunks = splitter.splitText(text);
 console.log(chunks.map(c=>`${c.length}: ${c}`).join('\n\n'));
 splitter.free(); // Call to release it when no longer using the splitter
 ```
+
+### API
+#### constructor(params?: TextSplitterParams)  
+Creates a new TextSplitter instance.  
+
+params.chunkSize (number): The maximum number of tokens per chunk (default: 1024).  
+params.chunkOverlap (number): The number of tokens to overlap between chunks (default: 200).  
+
+#### splitText(text: string): string[]  
+Splits the input text into chunks based on the specified chunkSize and chunkOverlap.  
+  
+#### splitTextMetadataAware(text: string, metadata: string): string[]  
+Adjusts the chunk size based on the length of the metadata before splitting.  
+  
+#### free(): void  
+Frees up the tokenizer resources. Call this method when you're done with the TextSplitter instance.  
