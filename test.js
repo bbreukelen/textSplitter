@@ -1,4 +1,4 @@
-import TextSplitter from './index.js';
+const TextSplitter = require('./index');
 
 // Example usage:
 const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris scelerisque suscipit libero, et auctor nulla tincidunt id. Phasellus feugiat sit amet tortor ut aliquet. Aenean non vehicula ligula. Fusce felis ante, pharetra ac ultricies sed, dignissim ut elit. Quisque eros dui, auctor at laoreet ornare, euismod nec ex. Etiam consequat lorem ut cursus imperdiet. Quisque orci est, efficitur eu magna in, blandit tincidunt magna. Phasellus pharetra dolor metus, id vestibulum elit ullamcorper ac. Pellentesque in malesuada nibh. Etiam facilisis leo sed mi placerat venenatis.

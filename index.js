@@ -1,6 +1,7 @@
-import { encoding_for_model } from 'tiktoken';
+const encoding_for_model = require('tiktoken').encoding_for_model;
 
-export default class TextSplitter {
+
+class TextSplitter {
     constructor(params = {}) {
         // Set default values
         this.chunkSize = params.chunkSize ?? 1024;
@@ -89,6 +90,4 @@ export default class TextSplitter {
 }
 
 // Voor CommonJS
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = TextSplitter;
-}
+module.exports = TextSplitter;

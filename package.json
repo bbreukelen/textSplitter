@@ -1,9 +1,8 @@
 {
   "name": "@bbreukelen/textsplitter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "types": "TextSplitter.d.ts",
-  "type": "module",
   "scripts": {
     "test": "node test.js"
   },
@@ -26,8 +25,5 @@
   "files": [
     "TextSplitter.js",
     "TextSplitter.d.ts"
-  ],
-  "devDependencies": {
-    "esbuild": "^0.24.0"
-  }
+  ]
 }
