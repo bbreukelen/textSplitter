@@ -87,3 +87,8 @@ export default class TextSplitter {
         this.tokenizer.free();
     }
 }
+
+// Voor CommonJS
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = TextSplitter;
+}

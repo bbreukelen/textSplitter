@@ -7,8 +7,12 @@ I pulled it out and had GPT make a standalone version.  It's not exactly the sam
 
 #### Installation
 git clone git@github.com:bbreukelen/textSplitter.git  
-cd textSplitter
+cd textSplitter  
 node test.js
+
+#### Publication
+- update version in package.json
+- npm publish
 
 #### Usage
 ```javascript

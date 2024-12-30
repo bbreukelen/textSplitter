@@ -1,13 +1,23 @@
 {
   "name": "@bbreukelen/textsplitter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "types": "TextSplitter.d.ts",
   "type": "module",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["text", "splitter", "tiktoken", "tokenization", "nlp", "ai", "llamaindex", "llama", "sentencesplitter"],
+  "keywords": [
+    "text",
+    "splitter",
+    "tiktoken",
+    "tokenization",
+    "nlp",
+    "ai",
+    "llamaindex",
+    "llama",
+    "sentencesplitter"
+  ],
   "author": "Boudewijn van Breukelen",
   "license": "ISC",
   "dependencies": {
@@ -16,5 +26,8 @@
   "files": [
     "TextSplitter.js",
     "TextSplitter.d.ts"
-  ]
+  ],
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
 }
